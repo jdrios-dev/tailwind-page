@@ -5,23 +5,4 @@
 @tailwind utilities;
 
 
-@responsive {
 
-  .rotate-45 {
-    transform: rotate(45deg);
-    transition: .5s;
-  }
-}
-
-
-@variants hover {
-  .zoom {
-    transform: scale(2); 
-    transition: .5s;   
-  }
-
-  .redondo{
-    border-radius: 50%;
-    transition: .5s; 
-  }
-}
